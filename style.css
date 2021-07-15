@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+}
+
+.cnt1, .red, .yellow, .blue{
+    padding-top: 15px;
+    padding-bottom: 91px;
+    border-radius: 5px;
+    z-index: 1;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3, h6{
+    font-weight: 200;
+   color: hsl(229, 6%, 66%);
+}
+h6{
+    color: hsl(229, 6%, 66%);
+}
+h2{
+    color:  hsl(234, 12%, 34%)
+}
+.cnt1{
+    border-top: solid 2px  hsl(180, 62%, 55%);
+
+    
+}
+.red{
+    border-top: solid 2px hsl(0, 78%, 62%);
+    
+
+}
+.yellow{
+    border-top: solid 2px hsl(34, 97%, 64%);
+    
+
+}
+.blue{
+    border-top: solid 2px hsl(212, 86%, 64%);
+}
+p{
+    text-align: start;
+    margin: 15px;
+    font-weight: 200;
+}
+/* img{
+    text-align: end;
+} */
+header{
+    text-align: start;
+    margin: 15px;
+}
+.icon{
+    position: absolute;
+    right: 33px;
+    /* padding: 30px; */
+    margin: 15px;
+}
+h2, h3, h6{
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (min-width: 855px){
+    .main-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .cards{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    
+    }
+   h3{
+    margin: 12px;
+    margin-top: 20px;
+
+text-align: center;
+
+font-family: 'Poppins', sans-serif;
+   }
+   h2{
+    margin: 0;
+
+    text-align: center;
+    
+    font-family: 'Poppins', sans-serif;
+   }
+   h6{
+ margin: 12px;
+    text-align: center;
+    
+    font-family: 'Poppins', sans-serif;
+   }
+   .main-div{
+       text-align: center;
+   }
+   .cnt1, .red, .yellow, .blue{
+       width: 300px;
+       padding-bottom: 0px;
+      
+   }
+       .icon{
+           position: relative;
+           right: -80px;
+           bottom:0px;
+       }
+       
+    
+    .attribution{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+   
+}
