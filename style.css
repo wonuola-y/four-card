@@ -18,11 +18,11 @@ main{
     font-family: 'Poppins', sans-serif;
 }
 
-h3, h6{
+h3, .h6{
     font-weight: 200;
    color: hsl(229, 6%, 66%);
 }
-h6{
+.h6{
     color: hsl(229, 6%, 66%);
 }
 h2{
@@ -64,7 +64,7 @@ header{
     /* padding: 30px; */
     margin: 14px;
 }
-h2, h3, h6{
+h2, h3, .h6{
     font-family: 'Poppins', sans-serif;
 }
 @media screen and (min-width: 855px){
